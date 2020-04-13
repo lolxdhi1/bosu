@@ -44,6 +44,7 @@ namespace osu.Game.Rulesets.Bosu
             new KeyBinding(InputKey.Left, BosuAction.MoveLeft),
             new KeyBinding(InputKey.Right, BosuAction.MoveRight),
             new KeyBinding(InputKey.Space, BosuAction.Jump),
+            new KeyBinding(InputKey.LeftShift, BosuAction.Dash),
         };
 
         public override IEnumerable<Mod> ConvertFromLegacyMods(LegacyMods mods)
